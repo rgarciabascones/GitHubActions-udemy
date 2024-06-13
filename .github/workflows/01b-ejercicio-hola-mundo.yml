@@ -1,0 +1,9 @@
+name: 01b-ejercicio-hola-mundo
+on:
+  push
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mandar saludo
+      run: echo "Hola Rodrigo"
